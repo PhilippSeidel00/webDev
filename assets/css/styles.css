@@ -5,6 +5,9 @@
 
 html * {
   color: var(--primary-text) !important;
+}
+
+html * :not(.form) {
   background-color: var(--primary-bg) !important;
 }
 
