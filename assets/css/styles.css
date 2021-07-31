@@ -5,7 +5,7 @@
 
 html * {
   color: var(--primary-text) !important;
-  /*background-color: var(--primary-bg) !important;*/
+  background-color: var(--primary-bg) !important;
 }
 
 .text-primary {
@@ -30,6 +30,7 @@ html * {
 
 .btn-primary {
   border-color: var(--primary-text);
+  background-color: var(--primary-bg) !important;
 }
 
 .star-dark.mb-5 {
