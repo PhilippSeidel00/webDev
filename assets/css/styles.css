@@ -1,6 +1,6 @@
 :root {
   --primary-text: var(--bs-danger);
-  --primary-bg: var(--bs-light);
+  --primary-bg: var(--bs-white);
 }
 
 html * {
