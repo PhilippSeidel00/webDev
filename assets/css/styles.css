@@ -1,0 +1,38 @@
+:root {
+  --primary-text: var(--bs-danger);
+  --primary-bg: var(--bs-light);
+}
+
+html * {
+  color: var(--primary-text) !important;
+  background-color: var(--primary-bg) !important;
+}
+
+.text-primary {
+  color: var(--primary-text) !important;
+}
+
+.text-secondary {
+  color: var(--primary-text) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary-bg) !important;
+}
+
+.bg-secondary {
+  background-color: var(--primary-bg) !important;
+}
+
+.row {
+  justify-content: center;
+}
+
+.btn-primary {
+  border-color: var(--primary-text);
+}
+
+.star-dark.mb-5 {
+  border-color: var(--primary-text);
+}
+
