@@ -5,7 +5,7 @@
 
 html * {
   color: var(--primary-text) !important;
-  background-color: var(--primary-bg) !important;
+  /*background-color: var(--primary-bg) !important;*/
 }
 
 .text-primary {
