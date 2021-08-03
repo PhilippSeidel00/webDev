@@ -49,3 +49,21 @@ html * :not(.form):not(.form-label) {
   background-color: transparent !important;
 }
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 25%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: white;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+
