@@ -5,10 +5,10 @@
 
 html * {
   color: var(--primary-text) !important;
-  font-family: monospace;
+  font-family: courier;
 }
 
-html * :not(.form) {
+html * :not(.form):not(.form-label) {
   background-color: var(--primary-bg) !important;
 }
 
