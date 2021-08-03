@@ -1,6 +1,6 @@
 .social-icons {
-  color: #313437;
-  background-color: #fff;
+  color: var(--primary-text);
+  background-color: var(--primary-bg);
   text-align: center;
   padding: 70px 0;
 }
@@ -14,11 +14,11 @@
 .social-icons i {
   font-size: 32px;
   display: inline-block;
-  color: #757980;
+  /*color: #757980;*/
   margin: 0 10px;
   width: 60px;
   height: 60px;
-  border: 1px solid #c8ced7;
+  /*border: 1px solid var(--primay-text);*/
   text-align: center;
   border-radius: 50%;
   line-height: 60px;

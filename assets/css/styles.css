@@ -45,3 +45,7 @@ html * :not(.form) {
   border-bottom: 1px solid var(--primary-text);
 }
 
+.form-label {
+  background-color: transparent !important;
+}
+
