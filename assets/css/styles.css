@@ -60,7 +60,7 @@ html * :not(.form):not(.form-label) {
 
 @keyframes blink-caret {
   from, to {
-    border-color: white;
+    border-color: var(--primary-text);
   }
   50% {
     border-color: transparent;
