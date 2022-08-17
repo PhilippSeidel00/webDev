@@ -1,168 +1,677 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Philipp Seidel</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Social-Icons.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Philipp Seidel</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72" style="color: var(--bs-pink);">
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="#page-top" style="max-width: initial;overflow: hidden;border-right: .15em solid var(--primary-text);white-space: nowrap;margin: 0 auto;letter-spacing: .10em;animation: typing 2s steps(30,end), blink-caret .75s step-end infinite;">Philipp Seidel</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler text-white bg-primary navbar-toggler-right text-uppercase rounded" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#projects">Projects</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#tutoringMaterial">Tutoring material</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/de">en/de</a></li>
-                </ul>
-            </div>
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <div class="info-content">
+          <h1 class="name" title="Philipp Seidel">Philipp Seidel</h1>
+
+          <p class="title">CS Enjoyer</p>
         </div>
-    </nav>
-        
-    <section id="about" style="text-align: center;">
-        
-        <p>&nbsp;</p> 
-        <p>&nbsp;</p>
 
-        <h1 title="general kenobi">Hello there!</h1>
-        <p>&nbsp;</p>
-        <p style="width: 60%;overflow: hidden;margin: 0 auto;">My name is Philipp Seidel, I'm a 21 year old computer science student at KIT Germany. I do programming in my free time, have a look at my projects if you like. I also work as a tutor at KIT, you can find some of my material on here as well.&nbsp;</p>
-    </section>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-    <section id="projects" style="text-align: center;">
-        <h1 title="Projects">Projects</h1>
-        <p>&nbsp;</p>
-        
-        <section class="project">
-            <a href="https://github.com/road-system-editor/rose">ROSE</a>
-            <p>&nbsp;</p> 
-            <div class="textBlock">-- ROSE is a graphical <b>ro</b>ad <b>s</b>ystem <b>e</b>ditor<br>
-                used to set up highway networks that can be exported to traffic simulation software.<br>
-                ROSE was created as a group project in the "Praxis der Softwareentwicklung" course at KIT --<br>
-                <p>&nbsp;</p> 
-                -April 2022
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mail@philipp-seidel.de" class="contact-link">mail@philipp-seidel.de</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">August 30, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Karlsruhe, BW, Germany</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/PhilippSeidel00" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/philipp-seidel-7ab3b5219/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Imprint</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Credits</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title" title="general kenobi">Hello there!</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Philipp Seidel, computer science student and research assistant at KIT. 
+            My hobbies include programming, reading, skiing, visiting the local sauna as well as politics and history.
+            I have worked as a tutor before, helping others pass the software engineering course at KIT and am currently working on the ProvideQ project at the TVA institute at KIT.
+            <br>I'm excited to meet new people and ideas. If you are a nice person and would like to contact me, feel free to do so! 
+            Othwerwise don't.
+            <br> :)
+          </p>
         </section>
 
-        <p>&nbsp;</p> 
-        <p>&nbsp;</p>
 
-        <section class="project">
-            <a href="https://philippseidel.itch.io/arminius">Arminius</a>
-            <p>&nbsp;</p> 
-            <div class="textBlock">-- A small game made for the <a href="https://itch.io/jam/historically-accurate-5">historically accurate game jam 5</a>.<br>
-                Inspired by the battle of the Teutoburg Forest in 9 A.D. . --<br>
-                <p>&nbsp;</p> 
-                -January 2022
-            </div>
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm interested in</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/robot.png
+                " alt="robot icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Robotics</h4>
+
+                <p class="service-item-text">
+                  Robots are facinating to me, smart prothesis especially.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/webDev.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  While still quite bad at it, I'm nevertheless trying to wrap my head around web development.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/machineLearning.png" alt="machine learning icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  Machine learning allows for many exiting new technologies, I hope to make up some of those myself one day.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/quantumComputing.png" alt="quantum icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Quantum Computing</h4>
+
+                <p class="service-item-text">
+                  I'm working with quantum computing at the ProvideQ project, finally getting to know some Qubits.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
         </section>
-        
 
 
-        <p>&nbsp;</p> 
-        <p>&nbsp;</p> 
+        <!--
+          - testimonials modal
 
+          do I know what this does? no!
+          does everything break without it? yes!
+        -->
 
-        <section class="project">
-            <a href="https://github.com/PhilippSeidel00/TimeSheetGeneratorGUI">Timesheet generator GUI</a>
-            <p>&nbsp;</p> 
-            <div class="textBlock">     -- A GUI for a timesheet generator used to generate timesheets<br>                               
-                as needed when working at KIT. --<br>
-                <p>&nbsp;</p> 
-                -July 2021
-            </div>
-        </section>
-        
+        <div class="modal-container" data-modal-container>
 
+          <div class="overlay" data-overlay></div>
 
-        <p>&nbsp;</p> 
-        <p>&nbsp;</p> 
+          <section class="testimonials-modal">
 
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
 
-        <section class="project">
-            <a href="/docs/Smart_Medical_Phantoms__State_Of_The_Art_In_Construction__Robotic_And_Sensory_Equipment.pdf" download>Proseminar Informatics in Medicine</a>
-            <p>&nbsp;</p> 
-            <div class="textBlock">     -- This work provides an overview of the current state of the <br>
-                art in smart phantom construction. --
-                <p>&nbsp;</p> 
-                -February 2021
-            </div>
-        </section>
-        
+          </section>
 
-
-    </section>
-
-
-    <section id="tutoringMaterial" style="text-align: center;">
-        <h1 title="Tutoring material">Tutoring Material</h1>
-        <p>&nbsp;</p> 
-
-        <a href="https://www.urbandictionary.com/define.php?term=soon%20tm">coming soon</a>
-        
-    </section>
-    
-
-    <section id="contact">
-        <div class="container">
-            <h2 class="text-uppercase text-center text-secondary mb-0">Contact Me</h2>
-            <hr>
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <form id="contactForm" name="sentMessage" novalidate="novalidate" data-bss-recipient="6921615e8d8e01062803376c1b0a40d8">
-                        <div class="control-group">
-                            <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="text" id="name" required="" placeholder="Name"><label class="form-label">Name</label><small class="form-text text-danger help-block"></small></div>
-                        </div>
-                        <div class="control-group">
-                            <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="email" id="email" required="" placeholder="Email Address"><label class="form-label">Email Address</label><small class="form-text text-danger help-block"></small></div>
-                        </div>
-                        <div class="control-group">
-                            <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="tel" id="phone" required="" placeholder="Phone Number"><label class="form-label">Phone Number</label><small class="form-text text-danger help-block"></small></div>
-                        </div>
-                        <div class="control-group">
-                            <div class="mb-5 form-floating controls pb-2"><textarea class="form-control" id="message" required="" placeholder="Message" style="height: 150px;"></textarea><label class="form-label">Message</label><small class="form-text text-danger help-block"></small></div>
-                        </div>
-                        <div id="success"></div>
-                        <div><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
-                    </form>
-                </div>
-            </div>
         </div>
-    </section>
-    <footer class="text-center footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase">Around the Web</h4>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"></li>
-                        <li class="list-inline-item"></li>
-                        <li class="list-inline-item"></li>
-                        <li class="list-inline-item"></li>
-                    </ul>
-                    <div class="social-icons"><a href="#"></a><a href="#"></a><a href="/github"><i class="icon ion-social-github"></i></a><a href="/linkedin"><i class="icon ion-social-linkedin"></i></a></div>
-                </div>
+
+
+      
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
-        </div>
-    </footer>
-    <div class="text-center text-white copyright py-4">
-        <div class="container"><small>Copyright ©&nbsp;Philipp Seidel 2022</small></div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KIT - Karlsruhe Institute of Technology</h4>
+
+              <span>2019 — present</span>
+
+              <p class="timeline-text">
+                BSc Computer Science
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Wentzinger-Gymnasium Freiburg</h4>
+
+              <span>2010-2018</span>
+
+              <p class="timeline-text">
+                Abitur
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Assisant</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                ProvideQ project at the TVA institute at KIT
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Tutor</h4>
+
+              <span>2020-2022</span>
+
+              <p class="timeline-text" style="white-space: nowrap;">
+                Tutoring in both eezi and Software Engineering at KIT
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Various other languages such as C#, Python, Haskell, Prolog, html and CSS</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Other</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Other</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/road-system-editor/rose">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/rose.png" alt="rose" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ROSE</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/PhilippSeidel00/philipp-seidel.de">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/website.png" alt="philipp-seidel.de" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">This Website</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://philippseidel.itch.io/arminius">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/arminius.png" alt="arminius" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arminius</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="other">
+              <a href="/docs/Smart_Medical_Phantoms__State_Of_The_Art_In_Construction__Robotic_And_Sensory_Equipment.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/proseminar.png" alt="proseminar" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Robotics in medicine Proseminar</h3>
+
+                <p class="project-category">Other</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #IMPRINT
+      -->
+
+      <article class="imprint" data-page="imprint">
+
+        <header>
+          <h2 class="h2 article-title">Imprint</h2>
+        </header>
+
+        <section class="about-text">
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2616.510204024247!2d8.421829916017195!3d49.01990257930368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479707cda84e17a1%3A0x702e2d665c22759c!2sHaus%20K5%2C%20Klosterweg%2028%2C%2076131%20Karlsruhe!5e0!3m2!1sde!2sde!4v1660761396124!5m2!1sde!2sde"
+                width="400" height="300" loading="lazy"></iframe>
+            </figure>
+          </section>
+
+          <p>
+            Philipp Seidel<br>
+            Klosterweg 28 M302<br>
+            76131 Karlsruhe<br><br><br>
+            If you wish to contact me, please do so via <a href="mailto:mail@philipp-seidel.de">e-mail</a>
+          </p>
+        </section>
+
+      </article>
+
+
+      <!--
+        - #CREDITS
+      -->
+
+      <article class="credits" data-page="credits">
+
+        <header>
+          <h2 class="h2 article-title">Credits</h2>
+        </header>
+
+
+        <section class="about-text">
+          <p>
+            <h3>Templates</h3>
+            <a href="https://github.com/codewithsadee/vcard-personal-portfolio">Website template</a><br>
+            <h3>Images</h3>
+            <a href="https://www.flaticon.com/free-icons/machine-learning" title="machine learning icons">Machine learning icons created by netscript - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/robot" title="robot icons">Robot icons created by Good Ware - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/quantum-computing" title="quantum computing icons">Quantum computing icons created by Natthapong - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/development" title="development icons">Development icons created by Freepik - Flaticon</a>
+          </p>
+        </section>
+
+      </article>
+
+
     </div>
-    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="text-center d-block rounded text-white" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/smart-forms.min.js"></script>
-    <script src="assets/js/freelancer.js"></script>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
