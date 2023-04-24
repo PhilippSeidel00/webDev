@@ -1892,3 +1892,15 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+a {
+  display: inline;
+}
