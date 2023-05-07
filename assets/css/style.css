@@ -544,6 +544,10 @@ main {
   z-index: -1;
 }
 
+.service-item:hover {
+  background: var(--nice-green);
+}
+
 .service-icon-box { margin-bottom: 10px; }
 
 .service-icon-box img { margin: auto; }
@@ -877,6 +881,10 @@ main {
   background: var(--text-gradient-green);
   height: 100%;
   border-radius: inherit;
+}
+
+.skill p {
+  color: var(--light-gray);
 }
 
 
@@ -1891,4 +1899,28 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.badge-row {
+  display: flex;
+  align-items: stretch;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+.badge {
+  margin: 1%;
+  min-width: 0;
+}
+
+a {
+  display: inline;
 }

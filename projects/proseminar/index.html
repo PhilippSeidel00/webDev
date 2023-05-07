@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Philipp Seidel</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+        <div class="sidebar-info">
+  
+          <div class="info-content">
+            <h1 class="name" title="Philipp Seidel">Philipp Seidel</h1>
+  
+            <p class="title">CS Enjoyer</p>
+          </div>
+  
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+  
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+  
+        </div>
+  
+        <div class="sidebar-info_more">
+  
+          <div class="separator"></div>
+  
+          <ul class="contacts-list">
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+  
+                <a href="mailto:mail@philipp-seidel.de" class="contact-link">mail@philipp-seidel.de</a>
+              </div>
+  
+            </li>
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+  
+                <time datetime="2000-08-30">August 30, 2000</time>
+              </div>
+  
+            </li>
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+  
+                <address>Karlsruhe, BW, Germany</address>
+              </div>
+  
+            </li>
+  
+          </ul>
+  
+          <div class="separator"></div>
+  
+          <ul class="social-list">
+  
+            <li class="social-item">
+              <a href="https://github.com/PhilippSeidel00" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+  
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/philipp-seidel-7ab3b5219/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+  
+            <li class="social-item">
+              <a href="https://www.instagram.com/phantastischer_photo_philipp/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+  
+          </ul>
+  
+        </div>
+  
+      </aside>
+      <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+        <!--
+          - #NAVBAR
+        -->
+  
+        <nav class="navbar">
+  
+          <ul class="navbar-list">
+
+            <a href="../..">
+                <li class="navbar-item">
+                    <button class="navbar-link  active" data-nav-link>Go Back</button>
+                  </li>
+            </a>
+  
+  
+          </ul>
+  
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Robotics in Medicine Proseminar</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As part of my studies at <a href="https://www.kit.edu/">KIT</a> I did research on the state of the art in
+            medical phantom technology wih a special focus on 'smart phantoms'.
+          </p>
+          <p>
+            Check out the resulting document <a href="assets/docs/Smart_Medical_Phantoms__State_Of_The_Art_In_Construction__Robotic_And_Sensory_Equipment.pdf">here</a>.
+          </p>
+        </section>
+
+
+
+        <!--
+          - testimonials modal
+
+          do I know what this does? no!
+          does everything break without it? yes!
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+
+      
+      </article>
+    </main>
+
+
+    <div class="copyright">
+        <p>&copy; Philipp Seidel 2023</p>
+      </div>
+    
+    
+      <!--
+        - custom js link
+      -->
+      <script src="/assets/js/script.js"></script>
+    
+      <!--
+        - ionicon link
+      -->
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    
+</body>
