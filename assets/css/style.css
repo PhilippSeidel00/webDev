@@ -1909,6 +1909,16 @@ textarea.form-input::-webkit-resizer { display: none; }
   flex: 50%;
 }
 
+.column-img {
+  flex: 50%;
+}
+
+@media (max-width: 800px) {
+  .column-img {
+    display: none;
+  }
+}
+
 .badge-row {
   display: flex;
   align-items: stretch;
