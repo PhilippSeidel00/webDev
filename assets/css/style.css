@@ -544,6 +544,10 @@ main {
   z-index: -1;
 }
 
+.service-item:hover {
+  background: var(--nice-green);
+}
+
 .service-icon-box { margin-bottom: 10px; }
 
 .service-icon-box img { margin: auto; }
