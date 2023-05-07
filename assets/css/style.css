@@ -883,6 +883,10 @@ main {
   border-radius: inherit;
 }
 
+.skill p {
+  color: var(--light-gray);
+}
+
 
 
 
@@ -1903,6 +1907,18 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .column {
   flex: 50%;
+}
+
+.badge-row {
+  display: flex;
+  align-items: stretch;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+.badge {
+  margin: 1%;
+  min-width: 0;
 }
 
 a {
